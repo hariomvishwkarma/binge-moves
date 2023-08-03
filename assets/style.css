@@ -1,0 +1,27 @@
+/* -----------------------------------
+hero section 
+----------------------------------- */
+
+.hero-section-main-img {
+    /* width: 600px;
+    height: 400px;
+    object-fit: cover; */
+}
+
+
+/* .hero-section-main-img {
+    padding-top: 43%;
+    position: relative;
+}
+
+.hero-section-main-img img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+} */
