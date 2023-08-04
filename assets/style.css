@@ -2,6 +2,14 @@
 hero section 
 ----------------------------------- */
 
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
 .hero-section-main-img {
     /* width: 600px;
     height: 400px;
@@ -25,3 +33,8 @@ hero section
     height: 100%;
     object-fit: cover;
 } */
+
+.hero-section-img {
+    width: 285px;
+    height: 160px;
+}
