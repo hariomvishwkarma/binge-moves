@@ -27,13 +27,12 @@
 hero section 
 ----------------------------------- */
 
-
-/* .hero-section-main-img {
-    padding-top: 43%;
+.hero-section-img {
+    padding: 28%;
     position: relative;
 }
 
-.hero-section-main-img img {
+.hero-section-img img {
     display: block;
     width: 100%;
     position: absolute;
@@ -43,14 +42,35 @@ hero section
     left: 0;
     height: 100%;
     object-fit: cover;
-} */
+}
+
+.hero-section-img-b {
+    padding-bottom: 0%;
+    padding-right: 22%;
+    padding-top: 28%;
+    padding-left: 28%;
+    position: relative;
+}
+
+.hero-section-img-b img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+}
 
 .hero-section-main-img-content h2 {
     font-size: 34px;
     font-weight: bold;
 }
 
-.hero-section-img {
+
+/* .hero-section-img {
     width: 285px;
     height: 160px;
 }
@@ -58,4 +78,4 @@ hero section
 .hero-section-img img {
     border-radius: 6px;
     object-fit: cover;
-}
+} */
