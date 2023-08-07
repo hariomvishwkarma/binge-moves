@@ -28,7 +28,10 @@ hero section
 ----------------------------------- */
 
 .hero-section-img {
-    padding: 28%;
+    padding-bottom: 0%;
+    padding-right: 17%;
+    padding-top: 25%;
+    padding-left: 28%;
     position: relative;
 }
 
@@ -46,8 +49,8 @@ hero section
 
 .hero-section-img-b {
     padding-bottom: 0%;
-    padding-right: 22%;
-    padding-top: 28%;
+    padding-right: 17%;
+    padding-top: 25%;
     padding-left: 28%;
     position: relative;
 }
