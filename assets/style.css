@@ -28,11 +28,9 @@ hero section
 ----------------------------------- */
 
 .hero-section-img {
-    padding-bottom: 0%;
-    padding-right: 17%;
-    padding-top: 25%;
-    padding-left: 28%;
+    padding-top: 50%;
     position: relative;
+    margin-right: 11%;
 }
 
 .hero-section-img img {
