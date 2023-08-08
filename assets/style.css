@@ -28,9 +28,9 @@ hero section
 ----------------------------------- */
 
 .hero-section-img {
-    padding-top: 50%;
+    padding-top: 55%;
     position: relative;
-    margin-right: 11%;
+    margin-right: 2%;
 }
 
 .hero-section-img img {
@@ -80,3 +80,12 @@ hero section
     border-radius: 6px;
     object-fit: cover;
 } */
+
+@media screen and (max-width: 596px) {
+    .hero-section-main-img-content h2 {
+        font-size: 22px;
+    }
+    .hero-sec-col {
+        padding: 0 7px;
+    }
+}
