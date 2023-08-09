@@ -22,15 +22,21 @@
     margin-bottom: 12px;
 }
 
+@media screen and (max-width: 1024px) {
+    .fs-12 {
+        font-size: 9px;
+    }
+}
+
 
 /* -----------------------------------
 hero section 
 ----------------------------------- */
 
 .hero-section-img {
-    padding-top: 55%;
+    padding-top: 56%;
     position: relative;
-    margin-right: 2%;
+    margin-right: 0%;
 }
 
 .hero-section-img img {
@@ -47,8 +53,8 @@ hero section
 
 .hero-section-img-b {
     padding-bottom: 0%;
-    padding-right: 17%;
-    padding-top: 25%;
+    padding-right: 20%;
+    padding-top: 27%;
     padding-left: 28%;
     position: relative;
 }
@@ -81,11 +87,28 @@ hero section
     object-fit: cover;
 } */
 
+@media screen and (max-width: 1024px) {
+    .small-img-john {
+        width: 25px;
+        height: 25px;
+    }
+    .hero-section-h6 {
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 596px) {
     .hero-section-main-img-content h2 {
         font-size: 22px;
     }
     .hero-sec-col {
         padding: 0 7px;
+    }
+    svg.start {
+        width: 55px;
+    }
+    .small-img-john {
+        width: 20px;
+        height: 20px;
     }
 }
