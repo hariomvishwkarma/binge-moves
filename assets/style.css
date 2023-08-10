@@ -112,6 +112,12 @@ hero section
     font-weight: bold;
 }
 
+@media screen and (min-width: 767px) {
+    .hero-section .container-xxl {
+        padding: 0 60px !important;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .hero-section-main-img-content h2 {
         font-size: 25px;
@@ -162,4 +168,10 @@ second section
     padding-top: 56%;
     position: relative;
     margin-right: 0%;
+}
+
+@media screen and (min-width: 767px) {
+    .second-sec .container-xxl {
+        padding: 0 60px !important;
+    }
 }
