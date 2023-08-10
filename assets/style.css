@@ -6,6 +6,10 @@
     font-size: 14px;
 }
 
+.fs-24 {
+    font-size: 24px;
+}
+
 .w-fit-content {
     width: fit-content;
 }
@@ -24,6 +28,10 @@
 
 .texts-black {
     color: black;
+}
+
+.color-purple {
+    color: #7A2CF4;
 }
 
 .common-big-img-container {
@@ -99,56 +107,6 @@ hero section
     margin-right: 0%;
 }
 
-.common-big-img-container img {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    object-fit: cover;
-}
-
-.common-mini-img-container-a {
-    padding-top: 56%;
-    position: relative;
-    margin-right: 0%;
-}
-
-.common-mini-img-container-a img {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    object-fit: cover;
-}
-
-.common-mini-img-container-b {
-    padding-bottom: 0%;
-    padding-right: 20%;
-    padding-top: 27%;
-    padding-left: 28%;
-    position: relative;
-}
-
-.common-mini-img-container-b img {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    object-fit: cover;
-}
-
 .hero-section-main-img-content h2 {
     font-size: 34px;
     font-weight: bold;
@@ -181,4 +139,27 @@ hero section
         width: 20px;
         height: 20px;
     }
+}
+
+
+/* -----------------------------------
+second section 
+----------------------------------- */
+
+.second-sec-main-img img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second-sec-main-img {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
 }
