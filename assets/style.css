@@ -22,24 +22,17 @@
     margin-bottom: 12px;
 }
 
-@media screen and (max-width: 1024px) {
-    .fs-12 {
-        font-size: 9px;
-    }
+.texts-black {
+    color: black;
 }
 
-
-/* -----------------------------------
-hero section 
------------------------------------ */
-
-.hero-section-img {
-    padding-top: 56%;
+.common-big-img-container {
+    padding-top: 65%;
     position: relative;
     margin-right: 0%;
 }
 
-.hero-section-img img {
+.common-big-img-container img {
     display: block;
     width: 100%;
     position: absolute;
@@ -51,7 +44,25 @@ hero section
     object-fit: cover;
 }
 
-.hero-section-img-b {
+.common-mini-img-container-a {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.common-mini-img-container-a img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.common-mini-img-container-b {
     padding-bottom: 0%;
     padding-right: 20%;
     padding-top: 27%;
@@ -59,7 +70,74 @@ hero section
     position: relative;
 }
 
-.hero-section-img-b img {
+.common-mini-img-container-b img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    .fs-12 {
+        font-size: 9px;
+    }
+}
+
+
+/* -----------------------------------
+hero section 
+----------------------------------- */
+
+.common-big-img-container {
+    padding-top: 65%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.common-big-img-container img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.common-mini-img-container-a {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.common-mini-img-container-a img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.common-mini-img-container-b {
+    padding-bottom: 0%;
+    padding-right: 20%;
+    padding-top: 27%;
+    padding-left: 28%;
+    position: relative;
+}
+
+.common-mini-img-container-b img {
     display: block;
     width: 100%;
     position: absolute;
@@ -76,18 +154,10 @@ hero section
     font-weight: bold;
 }
 
-
-/* .hero-section-img {
-    width: 285px;
-    height: 160px;
-}
-
-.hero-section-img img {
-    border-radius: 6px;
-    object-fit: cover;
-} */
-
 @media screen and (max-width: 1024px) {
+    .hero-section-main-img-content h2 {
+        font-size: 25px;
+    }
     .small-img-john {
         width: 25px;
         height: 25px;
