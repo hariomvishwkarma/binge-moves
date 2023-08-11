@@ -96,6 +96,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .fs-24 {
+        font-size: 16px;
+    }
+}
+
 
 /* -----------------------------------
 hero section 
@@ -173,5 +179,11 @@ second section
 @media screen and (min-width: 767px) {
     .second-sec .container-xxl {
         padding: 0 60px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .second-sec-ul-nav {
+        width: 100%;
     }
 }
