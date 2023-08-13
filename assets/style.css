@@ -187,3 +187,29 @@ second section
         width: 100%;
     }
 }
+
+
+/* -----------------------------------
+second section 
+----------------------------------- */
+
+.third-sec {
+    background-color: #4B159E;
+}
+
+.third-sec h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .third-sec h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .third-sec h2 {
+        font-size: 16px;
+    }
+}
