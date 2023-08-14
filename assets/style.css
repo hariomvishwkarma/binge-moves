@@ -34,6 +34,10 @@
     color: #7A2CF4;
 }
 
+.bg-purple {
+    background-color: #7A2CF4;
+}
+
 .common-big-img-container {
     padding-top: 65%;
     position: relative;
@@ -50,6 +54,7 @@
     left: 0;
     height: 100%;
     object-fit: cover;
+    border-radius: 6px;
 }
 
 .common-mini-img-container-a {
@@ -68,6 +73,7 @@
     left: 0;
     height: 100%;
     object-fit: cover;
+    border-radius: 6px;
 }
 
 .common-mini-img-container-b {
@@ -88,6 +94,14 @@
     left: 0;
     height: 100%;
     object-fit: cover;
+    border-radius: 6px;
+}
+
+@media screen and (min-width: 767px) {
+    section .container-xxl {
+        padding-right: 60px !important;
+        padding-left: 60px !important;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -116,12 +130,6 @@ hero section
 .hero-section-main-img-content h2 {
     font-size: 34px;
     font-weight: bold;
-}
-
-@media screen and (min-width: 767px) {
-    .hero-section .container-xxl {
-        padding: 0 60px !important;
-    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -168,18 +176,13 @@ second section
     left: 0;
     height: 100%;
     object-fit: cover;
+    border-radius: 6px;
 }
 
 .second-sec-main-img {
     padding-top: 56%;
     position: relative;
     margin-right: 0%;
-}
-
-@media screen and (min-width: 767px) {
-    .second-sec .container-xxl {
-        padding: 0 60px !important;
-    }
 }
 
 @media screen and (max-width: 992px) {
@@ -190,7 +193,7 @@ second section
 
 
 /* -----------------------------------
-second section 
+third section 
 ----------------------------------- */
 
 .third-sec {
@@ -211,5 +214,150 @@ second section
 @media screen and (max-width: 596px) {
     .third-sec h2 {
         font-size: 16px;
+    }
+}
+
+
+/* -----------------------------------
+fouth section 
+----------------------------------- */
+
+.fourth-section-img {
+    padding-bottom: 0%;
+    padding-right: 20%;
+    padding-top: 21%;
+    padding-left: 17.5%;
+    position: relative;
+}
+
+.fourth-section-img img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+/* -----------------------------------
+fifth section 
+----------------------------------- */
+
+.fifth-sec h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* -----------------------------------
+sixth-section 
+----------------------------------- */
+
+.sixth-section {
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
+}
+
+.sixth-section-img {
+    padding-bottom: 0%;
+    padding-right: 0%;
+    padding-top: 86%;
+    padding-left: 0%;
+    position: relative;
+    margin: 0 7px;
+}
+
+.sixth-section-img img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    padding: 7%;
+}
+
+.sixth-section .logo-img-1 {
+    background: #7A2CF4;
+}
+
+.sixth-section .logo-img-2 {
+    background: #FFCAB9;
+}
+
+.sixth-section .logo-img-3 {
+    background: #DCEEFF;
+}
+
+.sixth-section .logo-img-4 {
+    background: #573377;
+}
+
+.sixth-section .last-container {
+    background-color: #f1f1f1;
+}
+
+.sixth-section form button {
+    top: 8px;
+    margin-right: 8px;
+}
+
+.sixth-sex-social:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #7A2CF4;
+    top: 50%;
+    z-index: -1;
+}
+
+
+/* -----------------------------------
+seventh section 
+----------------------------------- */
+
+@media screen and (max-width: 1200px) {
+    .md-img-john {
+        width: 30px;
+        height: 30px;
+    }
+    .seventh-sec-box-a svg {
+        width: 85px;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .seventh-sec-box-a h6 {
+        font-size: 18px;
+    }
+    .seventh-sec-box-a .fs-6 {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .seventh-sec-box-a h6 {
+        font-size: 12px;
+    }
+    .md-img-john {
+        width: 20px;
+        height: 20px;
+    }
+    .seventh-sec-box-a svg {
+        width: 66px;
+        height: 18px;
+    }
+    .seventh-sec-box-a .fs-6 {
+        font-size: 9px !important;
     }
 }
