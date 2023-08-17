@@ -38,53 +38,19 @@
     background-color: #7A2CF4;
 }
 
-.common-big-img-container {
-    padding-top: 65%;
-    position: relative;
-    margin-right: 0%;
-}
-
-.common-big-img-container img {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-.common-mini-img-container-a {
-    padding-top: 56%;
-    position: relative;
-    margin-right: 0%;
-}
-
-.common-mini-img-container-a img {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-.common-mini-img-container-b {
-    padding-bottom: 0%;
-    padding-right: 20%;
-    padding-top: 27%;
-    padding-left: 28%;
-    position: relative;
-}
-
-.common-mini-img-container-b img {
+.seventh-sec-sm-img img,
+.seventh-sec-img img,
+.hero-sec-sm-img-container-b img,
+.hero-sec-img-container img,
+.hero-sec-sm-img-container-a img,
+.second-sec-sm-img-container img,
+.second-sec-main-img img,
+.third-sec-sm-img-container img,
+.third-sec-main-img img,
+.fourth-section-img img,
+.fifth-sec-sm-img-a img,
+.fifth-sec-sm-img-b img,
+.fifth-sec-main-img img {
     display: block;
     width: 100%;
     position: absolute;
@@ -121,10 +87,24 @@
 hero section 
 ----------------------------------- */
 
-.common-big-img-container {
+.hero-sec-img-container {
     padding-top: 65%;
     position: relative;
     margin-right: 0%;
+}
+
+.hero-sec-sm-img-container-a {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.hero-sec-sm-img-container-b {
+    padding-bottom: 0%;
+    padding-right: 20%;
+    padding-top: 27%;
+    padding-left: 28%;
+    position: relative;
 }
 
 .hero-section-main-img-content h2 {
@@ -166,20 +146,13 @@ hero section
 second section 
 ----------------------------------- */
 
-.second-sec-main-img img {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
+.second-sec-main-img {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
 }
 
-.second-sec-main-img {
+.second-sec-sm-img-container {
     padding-top: 56%;
     position: relative;
     margin-right: 0%;
@@ -195,6 +168,18 @@ second section
 /* -----------------------------------
 third section 
 ----------------------------------- */
+
+.third-sec-main-img {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.third-sec-sm-img-container {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
 
 .third-sec {
     background-color: #4B159E;
@@ -230,23 +215,30 @@ fouth section
     position: relative;
 }
 
-.fourth-section-img img {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
 
 /* -----------------------------------
 fifth section 
 ----------------------------------- */
+
+.fifth-sec-sm-img-a {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.fifth-sec-sm-img-b {
+    padding-bottom: 0%;
+    padding-right: 20%;
+    padding-top: 21%;
+    padding-left: 17.5%;
+    position: relative;
+}
+
+.fifth-sec-main-img {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
 
 .fifth-sec h2 {
     font-size: 24px;
@@ -310,7 +302,7 @@ sixth-section
     margin-right: 8px;
 }
 
-.sixth-sex-social:before {
+.sixth-sec-social:before {
     content: "";
     position: absolute;
     left: 0;
@@ -325,6 +317,20 @@ sixth-section
 /* -----------------------------------
 seventh section 
 ----------------------------------- */
+
+.seventh-sec-img {
+    padding-bottom: 0%;
+    padding-right: 20%;
+    padding-top: 21%;
+    padding-left: 17.5%;
+    position: relative;
+}
+
+.seventh-sec-sm-img {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
 
 @media screen and (max-width: 1200px) {
     .md-img-john {
